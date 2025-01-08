@@ -113,7 +113,6 @@ fun tambah_data_pendapatan(connection: Connection) {
         val id_pendapatan = readLine()?.toIntOrNull()
 
         if (id_pendapatan != null) {
-            println("ID pendapatan tidak valid. Silahkan masukkan angka ysng benar")
             print("Masukkan tanggal baru (YYYY-MM-DD): ")
             val tanggal_pendapatan = readLine()
             print("Masukkan deskripsi baru: ")
